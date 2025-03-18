@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `borrow` MODIFY `userId` INTEGER NOT NULL DEFAULT 0,
+    MODIFY `barangId` INTEGER NOT NULL DEFAULT 0;
